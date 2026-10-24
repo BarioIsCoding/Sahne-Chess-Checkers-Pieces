@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 180 180">
+<style>
+.transparent {fill: none;}
+.base-fill {fill: #f8f8f8;}
+.ring-stroke {fill: #f8f8f8;}
+.shadow-medium {opacity: 0.1;}
+.shadow-light {opacity: 0.05;}
+.contour {fill: #302d2b;}
+</style>
+<g>
+<rect class="transparent" height="150" width="150" x="0" y="0"/>
+<!-- Main circle fill -->
+<path class="base-fill" d="M 90,23.1 A 66.9,66.9 0 1 0 156.9,90 67,67 0 0 0 90,23.1 Z"/>
+<!-- Inner shadow circle -->
+<path class="shadow-medium" d="M 90,40.15 A 49.85,49.85 0 1 0 139.85,90 49.9,49.9 0 0 0 90,40.15 Z"/>
+<!-- Outer shadow circle -->
+<path class="shadow-light" d="M 90,36.5 A 53.5,53.5 0 1 0 143.5,90 53.5,53.5 0 0 0 90,36.5 Z"/>
+<!-- Outer ring shadow -->
+<path class="shadow-light" d="M 91,54.25 A 36.7,36.7 0 1 1 54.25,91 36.75,36.75 0 0 1 91,54.25 m 0,-2.1 A 38.8,38.8 0 1 0 129.8,91 38.85,38.85 0 0 0 91,52.15 Z"/>
+<!-- Outer ring stroke -->
+<path class="ring-stroke" d="M 90,53.35 A 36.7,36.7 0 1 1 53.35,90 36.75,36.75 0 0 1 90,53.35 m 0,-2.05 A 38.75,38.75 0 1 0 128.8,90 38.8,38.8 0 0 0 90,51.3 Z"/>
+<!-- Middle ring shadow -->
+<path class="shadow-light" d="M 91,67.7 A 23.3,23.3 0 1 1 67.7,91 23.3,23.3 0 0 1 91,67.7 m 0,-2.1 a 25.4,25.4 0 1 0 25.4,25.4 25.4,25.4 0 0 0 -25.4,-25.4 z"/>
+<!-- Middle ring stroke -->
+<path class="ring-stroke" d="M 90,66.75 A 23.3,23.3 0 1 1 66.75,90 23.3,23.3 0 0 1 90,66.75 m 0,-2.05 A 25.35,25.35 0 1 0 115.4,90 25.4,25.4 0 0 0 90,64.7 Z"/>
+<!-- Inner ring shadow -->
+<path class="shadow-light" d="m 91,82.15 a 8.85,8.85 0 1 1 -8.85,8.85 8.85,8.85 0 0 1 8.85,-8.85 m 0,-2.1 A 10.95,10.95 0 1 0 102,91 10.95,10.95 0 0 0 91,80.05 Z"/>
+<!-- Inner ring stroke -->
+<path class="ring-stroke" d="M 90,81.15 A 8.85,8.85 0 1 1 81.15,90 a 8.85,8.85 0 0 1 8.85,-8.85 m 0,-2.05 A 10.9,10.9 0 1 0 100.95,90 10.9,10.9 0 0 0 90,79.1 Z"/>
+<!-- Outer contour -->
+<path class="contour" d="M 90,24 A 66,66 0 1 1 24,90 66,66 0 0 1 90,24 m 0,-3.9 A 69.9,69.9 0 1 0 159.9,90 69.95,69.95 0 0 0 90,20.1 Z"/>
+</g>
+</svg>
