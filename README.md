@@ -8,13 +8,15 @@ shading. Both games share one collection and one [MIT License](LICENSE).
 
 ## Chess
 
-![Sahne chess starting position on the Mintide's pink board](chess/previews/board.png)
+![Sahne chess starting position on the Mintide's pink board](chess/previews/board.png?v=20261114)
 
 Familiar Staunton silhouettes have broad bases, rounded contours, and subtle side
 shading. Cross-topped kings, pointed queen crowns, split bishop mitres, crenellated
 rooks, curved horse heads, and round-headed pawns keep each piece distinct.
 
-![White and black chess pieces ordered king, queen, rook, bishop, knight, pawn](chess/previews/set.png)
+![White and black chess pieces ordered king, queen, rook, bishop, knight, pawn](chess/previews/set.png?v=20261114)
+
+Both previews use the current SVG files in `chess/`, linked below.
 
 
 | Piece | White | Black |
@@ -106,10 +108,19 @@ README.md           Shared documentation for both games
 LICENSE             MIT license for the Sahne collection
 chess/              12 chess SVGs and board/set previews
 checkers/           4 checkers SVGs, PNG versions, and board/set previews
+tools/              Reproducible chess preview renderer
 ```
 
 Use this folder as the root of the **Sahne-Chess-Checkers-Pieces** repository.
 The game folders keep assets with the same filenames, such as `wk.svg`, distinct.
+
+To regenerate the chess board and piece lineup after updating the SVGs in
+`chess/`, install CairoSVG and Pillow, then run:
+
+```bash
+pip install cairosvg pillow
+python tools/render_chess_previews.py
+```
 
 ## Inspiration and license
 
