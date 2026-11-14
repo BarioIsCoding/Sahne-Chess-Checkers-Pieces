@@ -1,6 +1,6 @@
 # Sahne-Chess-Checkers-Pieces
 
-Sahne, a free chess & checkers piece set inspired by Sadsnake9's Staunty and Tatiana.
+Sahne, a free chess & checkers piece set inspired by sadsnake1's Staunty and Tatiana.
 
 Designed for chess and checkers UIs and interfaces, Sahne brings together soft
 curves, cream-white and charcoal-black finishes, clear outlines, and restrained
@@ -113,7 +113,7 @@ The game folders keep assets with the same filenames, such as `wk.svg`, distinct
 
 ## Inspiration and license
 
-Sahne is inspired by **Sadsnake9's Staunty and Tatiana** piece sets. Its soft,
+Sahne is inspired by **sadsnake1's Staunty and Tatiana** piece sets. Its soft,
 sculpted style is intended for game boards, analysis tools, game viewers, and
 other chess and checkers interfaces.
 
